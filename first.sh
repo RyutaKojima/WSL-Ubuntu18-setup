@@ -1,10 +1,10 @@
 #!/bin/sh
 
-apt upgrade -y
-apt update -y
+sudo apt upgrade -y
+sudo apt update -y
 
-apt install -y gcc autoconf/bionic libbison-dev
-apt install -y re2c pkg-config \
+sudo apt install -y gcc autoconf/bionic libbison-dev
+sudo apt install -y re2c pkg-config \
  libxml2-dev \
  libkrb5-dev \
  libssl-dev \
@@ -19,8 +19,8 @@ apt install -y re2c pkg-config \
  libxslt-dev \
  libzip-dev
 
-apt install -y bison 
-apt install -y mysql-server-5.7  mysql-client-5.7
+# sudo apt install -y bison 
+sudo apt install -y mysql-server-5.7  mysql-client-5.7
 
 # install anyenv
 git clone https://github.com/anyenv/anyenv ~/.anyenv
