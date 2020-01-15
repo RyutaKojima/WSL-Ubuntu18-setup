@@ -1,3 +1,5 @@
+#!/bin/sh
+
 anyenv install --init
 # anyenv install -l
 

@@ -1,3 +1,5 @@
+#!/bin/sh
+
 apt upgrade -y
 apt update -y
 
