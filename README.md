@@ -30,3 +30,19 @@ phpenv install 7.4snapshot
 - phpenv
     - 7.2 ～ 7.4snapshot
 
+
+- yarn使う場合
+
+1. npmを使ってyarnをグローバルインストール
+
+```shell script
+npm install -g yarn
+```
+
+2. ターミナルを再起動
+
+3. 動作確認
+
+```shell script
+yarn --version
+```
