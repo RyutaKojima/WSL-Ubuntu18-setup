@@ -18,6 +18,11 @@ sh second.sh
 ```
 
 Step4:
+Windowsを再起動します（Windowsのドライブにchmod/chownを反映するため）
+
+@see https://qiita.com/remin/items/a726128ab388cb73d9ee
+
+Step5:
 必要なバージョンをインストール
 
 ```
