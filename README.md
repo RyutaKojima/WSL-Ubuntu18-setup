@@ -27,13 +27,13 @@ Step5:
 
 ```
 nodenv install 13.6.0
-phpenv install 7.4snapshot
+phpenv install 7.4.2
 ```
 
 # Install Version Cover
 
 - phpenv
-    - 7.2 ～ 7.4snapshot
+    - 7.2 ～ 7.4.2
 
 
 # yarn使う場合
