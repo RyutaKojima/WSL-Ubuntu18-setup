@@ -1,29 +1,24 @@
 # How to use
 
-Step1: 
-Microsoft Storeから "Ubuntu 18.04 LTS" をインストールする
+1. Microsoft Storeから "Ubuntu 18.04 LTS" をインストールする
 
-Step2:
-インストールが完了したら起動し、`first.sh` を実行する
+2. インストールが完了したら起動し、`first.sh` を実行する
 
 ```
 sh first.sh
 ```
 
-Step3:
-完了したら、ターミナルを再起動（Exit -> 新規起動）をして、`second.sh` を実行する
+3. ターミナルを再起動（Exit -> 新規起動）をして、`second.sh` を実行する
 
 ```
 sh second.sh
 ```
 
-Step4:
-Windowsを再起動します（Windowsのドライブにchmod/chownを反映するため）
+4. Windowsを再起動します（Windowsのドライブにchmod/chownを反映するため）
 
 @see https://qiita.com/remin/items/a726128ab388cb73d9ee
 
-Step5:
-必要なバージョンをインストール
+5. ** envを使い、必要なバージョンをインストール
 
 node
 
@@ -44,9 +39,6 @@ PHP_BUILD_CONFIGURE_OPTS=--with-pear PHP_BUILD_EXTRA_MAKE_ARGUMENTS=-j4 phpenv i
 pecl install mailparse
 ```
 
-`PHP_BUILD_EXTRA_MAKE_ARGUMENTS=-j4`はmakeに-jオプション渡すための記述
-https://linuxjm.osdn.jp/html/GNU_make/man1/make.1.html
-
 php.iniの最後に一行追加
 
 `$ phpenv configure`
@@ -54,6 +46,9 @@ php.iniの最後に一行追加
 ```php.ini
 extension=mailparse.so
 ```
+
+> `PHP_BUILD_EXTRA_MAKE_ARGUMENTS=-j4`はmakeに-jオプション渡すための記述
+> https://linuxjm.osdn.jp/html/GNU_make/man1/make.1.html
 
 # Cover Versions 
 
